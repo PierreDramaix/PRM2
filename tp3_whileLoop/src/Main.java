@@ -8,11 +8,11 @@ public class Main {
 //        ex001.exerciceF();
 //        ex002.exercice();
 //        ex003.exercice();
-        ex004.exercice();
+//        ex004.exercice();
 //        ex005.exercice();
 //        ex006.exercice();
 //        ex007.exercice();
 //        ex008.exercice();
-//        ex009.exercice();
+       ex009.exercice();
     }
 }

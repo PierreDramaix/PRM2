@@ -7,12 +7,21 @@ import java.util.Scanner;
 public class ex006 {
     public static void exercice(){
         Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        int b = 1;
+        int a = 0;
+        int sentinelle = -1;
+        int b = 0;
+        int c = 0;
 
-        while((b * b) < a){
-            System.out.print(b + " ");
+        while(a != sentinelle){
             b++;
+            c = a;
+            a = scan.nextInt();
+        }
+
+        if(b == 1){
+            System.out.println("Aucun nombre entier positif n'a été entré");
+        } else {
+            System.out.println("Le dernier est : " + c);
         }
     }
 }

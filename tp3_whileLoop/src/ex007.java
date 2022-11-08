@@ -8,10 +8,14 @@ import java.util.Scanner;
 public class ex007 {
     public static void exercice(){
         Scanner scan = new Scanner(System.in);
-        int a = 0;
+        int a = scan.nextInt();
         int sentinelle = -1;
         int b = 0;
         int c = 0;
+
+        if(a == -1 && b == 0){
+            System.out.println("pas de chiffre pas de derniir");
+        } else
 
         while(a != sentinelle){
             b++;

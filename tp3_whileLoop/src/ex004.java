@@ -13,7 +13,7 @@ public class ex004 {
         int c = 0;
 
         while(c < a){
-            b++;
+            ++b;
             c += b;
         }
         System.out.println("the solution is " + (b - 1));

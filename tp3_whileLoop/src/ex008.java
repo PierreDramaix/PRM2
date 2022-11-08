@@ -23,23 +23,28 @@ public class ex008 {
                 a = scan.nextInt();
                 if(count == 0){
                     first = a;
-                } else if (a != -1) {
+                }
+                if (a != -1) {
                     last = a;
                 }
                 count++;
         }
 
 
-
         if(count == 1){
             System.out.println("La suite est vide");
         }
+//        else if (count == 2){
+//            System.out.println("Le premier est égal au dernier");         // works too but added uncessary code
+//        }
         else if (first < last) {
             System.out.println("Le premier est inférieur au dernier");
         } else if (first > last){
             System.out.println("Le premier est supérieur au dernier");
-        } else if (first == last){
+        } else {
             System.out.println("Le premier est égal au dernier");
         }
     }
+
+    //make sure the last else if usefull
 }
